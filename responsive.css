@@ -1,0 +1,282 @@
+@media (max-width: 800px){
+
+    body{
+        background: linear-gradient(180deg,#FF003D, #FF0C01);
+        color: rgb(255, 255, 255);
+        margin: 0;
+    }
+
+    /* Boton Menu Flotante*/
+    .btnMenu{
+        position: block;
+        top: 0;
+        background: #ffffff;
+        color:#000000;
+        position: inherit;
+        margin: 0;
+        min-width: 100%;
+        height: 50px;
+        border: none;
+        border-radius: 0;
+    }
+
+    .btnMenu:active{
+        background: #FFF;
+        color:#FF003D;
+    }
+
+
+    .nav{
+        /*display: none;*/
+        position: fixed;
+        padding: 0;
+        margin: 0;
+        margin-top: 60px;
+        margin-left: -700px;
+        height: 30px;
+        transition: all 0.3s;
+
+    }
+
+    /*menu abierto*/
+    .nav2{
+        padding: 0px;
+        margin-top: 60px;
+        position: fixed;
+        max-width: 100%;
+        height: 30px;
+        transition: all 0.3s;
+        background: #ffffff;
+
+    }
+    /*Aqui termina*/
+
+    .menu{
+        list-style: none;
+        align-content: center;
+        padding: 0;
+        margin: 0 0 40px 0;
+
+    }
+
+    .menu li a{
+        margin: 0;
+        text-decoration: none;
+        padding: 0px;
+        background: #ffffff;
+        color:rgb(255, 51, 0);
+        font-size: 15px;
+        text-align: center;
+        padding: 10px;
+    }
+
+
+    .menu li a:hover{
+        background: linear-gradient(180deg,#FF003D, #FF0C01);
+        color: #fff;
+        transition-duration: 0.1s;
+        transition-delay: 0.1s;
+    }
+
+    /*Contenido Pagina*/
+    .heri{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .heri2{
+        max-width: 300px;
+    }
+
+    .heri3 p{
+    text-align: center;
+    padding-right: 0;
+    }
+
+    .quien{
+    min-height: 300px;
+    text-align: center;
+
+    }
+
+    .quien h1{
+        margin-top: 0;
+        text-align: center;
+        margin-right: 0px;
+        font-size: 50px;
+    }
+    .quien h2{
+        text-align: center;
+        margin-right: 0;
+        font-size: 30px;
+    }
+    .quien h3{
+        text-align: center;
+        margin-right: 0;
+        font-size: 20px;
+    }
+    .quien .yo{
+        background: #ffffff;
+        color: #000000;
+        font-size: 20px;
+        text-align: justify;
+        margin: 0 20px 20px 20px;
+        padding: 10px;
+        min-width: 300px;
+        box-shadow:
+        inset 0 -3em 3em rgba(0,0,0,0.1),
+            0 0  0 2px rgb(255,255,255),
+            0.3em 0.3em 1em rgba(0, 0, 0, 0.849);
+    }
+
+    .curriculum{
+        margin-top: 50px;
+        text-align: right;
+
+    }
+
+    .curriculum a{
+        background: linear-gradient(180deg,#ff2256, #bd002c);
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px;
+        text-align: justify;
+        padding: 20px;
+        border: none;
+        border-radius: 50px;
+    }
+
+
+    /* SKILLS */
+
+    .skills{
+        display: flex;
+        justify-content: center;
+        min-height: 500px;
+        min-width: 300px;
+        margin-top: 60px;
+
+    }
+
+    .skills div{
+        width: 700px;
+        margin: 10px;
+        padding: 0 10px;
+        text-align: center;
+
+    }
+
+    .skills div h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+
+    }
+
+    .skills div p{
+        margin-bottom: 10px;
+    }
+
+    .skills div img{
+        max-width: 40px;
+
+    }
+
+
+    /* PROYECTS*/
+
+    .proyect{
+        min-height: 500px;
+        min-width: 300px;
+        margin: 20px;
+
+    }
+    .proyect h1{
+        text-align: right;
+    }
+
+    .proyect h2{
+        text-align: right;
+    }
+
+    .proyect p a{
+        padding: 10px;
+        font-size: 50px;
+        text-decoration: none;
+        color: #ff2256;
+        background: #ffffff;
+        border-radius: 20px;
+    }
+
+    /* CONTACT */
+
+    .contact{
+        min-height: 700px;
+        min-width: 300px;
+        margin: 20px;
+    }
+
+
+    .contact input{
+        width: 350px;
+        height: 60px;
+        color: #ffffff;
+        font-size: 20px;
+        background: none;
+        border: none;
+        border-bottom: solid 0.5px #fff;
+    }
+    .contact textarea{
+        width: 350px;
+        max-height: 200px;
+        color: #ffffff;
+        font-size: 20px;
+        background: none;
+        border: none;
+        border-bottom: solid 0.5px #fff;
+    }
+
+    .contact button{
+        width: 120px;
+        height: 50px;
+        border: none;
+        border-radius: 50px;
+        margin-top: 60px;
+    }
+
+    .contact button:hover{
+
+        color:white;
+        background: linear-gradient(180deg,#FF003D, #bd002c);
+        transition: all 0.5s;
+    }
+
+    .contact button:active{
+
+        color:#FF003D;
+        background: #ffffff;
+    }
+
+    .contact{
+    text-align: center;
+    }
+
+    /*FOOTER*/
+
+    footer{
+        text-align: center;
+        margin: 20px;
+    }
+
+    footer img{
+        max-width: 30px ;
+        margin: 20px 20px;
+        color: #ffffff;
+        opacity: 20%;
+    }
+
+    footer img:hover{
+        opacity: 100%;
+        transition: all 0.5s;
+    }
+
+}

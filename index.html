@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heriberto Sanchez</title>
+
+    <!--Links-->
+    <script src="./main.js"></script>
+    <script src="./btnMenu.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="workspace">
+    
+    <button class="btnMenu" id="btnMenu">MENU</button>
+    <button class="btn1" id="btn1" href="#quien">^</button>
+    <nav class="nav" id="nav">
+        <ul class="menu">
+            <li><a href="#quien" class="link">Quien soy</a></li>
+            <li><a href="#skills" class="link">Skills</a></li>
+            <li><a href="#proyect" class="link">Proyectos</a></li>
+            <li><a href="#contact" class="link">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="quien" id="quien">
+        <h1>Heriberto Sanchez</h1>
+        <h2>Web dev</h2>
+        <h3>Front-end / Back-end</h3>
+        <div class="heri">
+            <p><img src="./images/avatar1.png" alt="heri" class="heri2"></p>
+            <div class="heri3">
+                <p class="yo">-" Programador con conocimientos y aptitudes para desempeñarme dentro del entorno Web y de Escritorio. Con habilidades de adaptabilidad y flexibilidad ante circunstancias y problemas ".</p>
+                <p class="curriculum"><a href="./resources/heriberto CV 2.pdf" download="Curriculum_Heriberto_sanchez">Descarga mi curriculum</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills" id="skills">
+        <div class="front" id="front">
+            <h1>Front-end</h1>
+
+                <p><img src="./images/html.png" alt="html5"></p><p>HTML5</p>
+                <p><img src="./images/css.png" alt="css3"></p><p>CSS3</p>
+                <p><img src="./images/javascript.png" alt="javascript"></p><p>Javascript</p>
+                <p><img src="./images/vue.png" alt="javascript"></p><p>Vue</p>
+                <p><img src="./images/angular.png" alt="angular"></p><p>Angular</p>
+        </div>
+
+        <div class="back" id="back">
+            <h1>Back-end</h1>
+                <p><img src="./images/php.png" alt="php8"></p><p>PHP8</p>
+                <p><img src="./images/mysql.png" alt="mysql"></p><p>MYSQL</p>
+                <p><img src="./images/python.png" alt="python"></p><p>Python</p>
+                <p><img src="./images/cplusplus.png" alt="c++"></p><p>C++</p>
+                <p><img src="./images/node.png" alt="python"></p><p>Node</p>
+        </div>
+
+        <div class="other" id="other">
+            <h1>Otros Conocimientos</h1>
+
+                <p><img src="./images/bash.png" alt="bash"></p><p>Bash Script</p>
+                <p><img src="./images/linux.png" alt="linux"></p><p>Linux</p>
+                <p><img src="./images/git.png" alt="linux"></p><p>Git</p>
+        </div>
+    </div>
+
+    <div class="proyect" id="proyect">
+        <h1>Mis Proyectos</h1>
+        <div class="webs">
+            <p><a href="../artealborada/index.html" target="_blancl"><img src="./images/web1.png" alt="Arte Alborada"></a></p>
+            <p><a href="https://hydroweb.000webhostapp.com/" target="_blank"><img src="./images/web2.png" alt="HydroWeb"></a></p>
+
+        </div>
+
+            <h2>Codigo</h2>
+            <p class="github"><a href="https://github.com/hersac" target="_blank"><img src="images/GitHub-Logo.png" alt="github"></a></p>
+
+    </div>
+
+    <div class="contact" id="contact">
+        <h1>Contactame</h1>
+        <div class="contac2">
+            <form action="correos.php" method="POST">
+                <p><input type="text" name="name" class="name" id="name" placeholder="Nombre" required></p>
+                <p><input type="tel" name="cel" class="cel" id="cel" placeholder="Telefono" required></p>
+                <p><input type="email" name="mail" class="mail" id="mail" placeholder="Correo" required></p>
+                <p><input type="text" name="asunto" class="asunto" id="asunto" placeholder="Asunto" required></p>
+                <p><textarea name="mensaje" class="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea></p>
+                <p><button type="submit">Enviar</button></p>
+            </form>
+        </div>
+    </div>
+
+
+    <footer>
+        <a href="https://www.linkedin.com/in/heriberto-sanchez-b9918a213/?originalSubdomain=co" target="_blank"><img src="./images/linkedin.png" alt="linkedin"></a>
+        <a href="https://www.facebook.com/heriberto.sanchez.988" target="_blank"><img src="./images/facebook.png" alt="facebook"></a>
+        <a href="https://twitter.com/hersac95" target="_blank"><img src="./images/twitter.png" alt="twitter"></a>
+        <p>Todos los derechos reservados 2021 ©</p>
+    </footer>
+</body>
+</html>

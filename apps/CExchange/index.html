@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CExchange</title>
+
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="main.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div class="body">
+		<h1>CExchange</h1>
+		<h3>Conversor de Divisas</h3>
+		<div class="content" id="content">
+			<form>
+				<select id="eleccion" onchange="elect()">
+					<option value="inicial">Elige una moneda...</option>
+					<option value="cop" class="option" id="cop">COP Peso Colombiano</option>
+					<option value="usd" class="option" id="usd">USD Dolar Estadounidense</option>
+				</select>
+				<select id="eleccion2" onchange="elect2()">
+					<option value="inicial">Elige una moneda...</option>
+					<option value="cop2" class="option" id="cop2">COP Peso Colombiano</option>
+					<option value="usd2" class="option" id="usd2">USD Dolar Estadounidense</option>	
+				</select>
+				<input type="number" class="valor" id="valor">
+				<input type="button" value="Convertir" class="btnConvert" id="btnConvert" onclick="convert()">
+			</form>		
+		</div>
+		<p></p>
+
+	</div>
+</body>
+</html>

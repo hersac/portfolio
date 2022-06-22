@@ -1,0 +1,98 @@
+@media(max-width: 600px){
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.content{
+	margin: 20px;
+	background: linear-gradient(#B2DCFF, #79C2FF);
+	border-radius: 20px;
+	padding: 40px;
+	text-align: center;
+}
+
+
+h1{
+	margin-bottom: 30px;
+	font-size: 25px;
+}
+
+.range{
+	margin-top: 30px;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+
+}
+
+table{
+	margin: 0 auto;
+	border-spacing: 10px 5px;
+	table-layout: auto;
+	text-align: center;
+}
+
+.inHeight, .inWeight{
+	height: 25px;
+	font-size: 15px;
+	padding-left: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+.btnCalc{
+	width: 60px;
+	height: 30px;
+	font-size: 15px;
+	border: none;
+	border-radius: 5px;
+}
+.btnCalc:hover{
+	background: linear-gradient(35deg, #FF8A00,#EB8002);
+	color: #ffffff;
+	transition: all 0.3s ease-out;
+}
+
+.btnCalc:active{
+	background: #ffffff;
+	color: #FF8A00;
+}
+
+.info{
+	margin-top: 30px;
+	font-size: 20px;
+	background: #ffffff50;
+	transition: all 0.3s ease-out;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+.check{
+	background: #FF8A00;
+	border-radius: 30px;
+	transition: all 0.5s ease-out;
+}
+
+.btnDelete{
+	width: 60px;
+	height: 30px;
+	font-size: 15px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.btnDelete:hover{
+	background: linear-gradient(35deg, #FF8A00,#EB8002);
+	color: #ffffff;
+	transition: all 0.3s ease-out;
+}
+
+.btnDelete:active{
+	background: #ffffff;
+	color: #FF8A00;
+}
+
+}

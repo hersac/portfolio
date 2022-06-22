@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background: linear-gradient(180deg,#FF003D, #FF0C01);
+    color: rgb(255, 255, 255);
+    margin: 40px;
+}
+/*boton Flotante*/
+.btn1 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 50px;
+    color: #FF003D50;
+    background: #ffffff50;
+}
+
+.btn1:hover{
+    background: #FF003D;
+    color: #fff;
+    transition-duration: 0.2s;
+
+}
+
+.btn1:active{
+    background: #fff;
+    color: #FF003D;
+}
+
+/* Boton Menu Flotante*/
+.btnMenu{
+    background: #ffffff30;
+    color:#00000030;
+    position: fixed;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.btnMenu:hover{
+background: #FF003D;
+color: #fff;
+transition: all 0.5s;
+}
+
+.btnMenu:active{
+    background: #FFF;
+    color:#FF003D;
+}
+
+
+.nav{
+    /*display: none;*/
+    position: fixed;
+    margin-top: 100px;
+    margin-left: -470px;
+    transition: all 0.3s;
+
+}
+
+/*menu abierto*/
+.nav2{
+    padding: 10px;
+    position: fixed;
+    margin: 90px 10px 10px 10px;
+    transition: all 0.3s;
+
+}
+/*Aqui termina*/
+
+.menu{
+    list-style: none;
+    display: flex;
+    align-content: center;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    padding: 20px;
+    background: #fff;
+    color:rgb(255, 51, 0)
+
+}
+
+.menu li a:hover{
+    background: linear-gradient(180deg,#FF003D, #FF0C01);
+    color: #fff;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+}
+
+/*Contenido Pagina*/
+.heri{
+    display: flex;
+}
+
+.heri2{
+    max-width: 500px;
+}
+
+.heri3 p{
+text-align: center;
+padding-right: 0;
+}
+
+.quien{
+ min-height: 500px;
+}
+
+.quien h1{
+    text-align: right;
+    margin-right: 50px;
+    font-size: 60px;
+}
+.quien h2{
+    text-align: right;
+    margin-right: 50px;
+    font-size: 30px;
+}
+.quien h3{
+    text-align: right;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.quien .yo{
+    background: #ffffff;
+    color: #000000;
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 100px;
+    padding: 20px;
+    max-width: 500px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0 0  0 2px rgb(255,255,255),
+          0.3em 0.3em 1em rgba(0, 0, 0, 0.849);
+}
+
+.curriculum{
+    margin-top: 50px;
+    text-align: right;
+
+}
+
+.curriculum a{
+    background: linear-gradient(180deg,#ff2256, #bd002c);
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+}
+
+/* SKILLS */
+
+.skills{
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+}
+
+.skills div{
+    margin: 10px;
+    padding: 0 90px;
+    text-align: center;
+
+}
+
+.skills div h1{
+    margin-bottom: 50px;
+
+}
+
+.skills div p{
+    margin-bottom: 20px;
+}
+
+.skills div img{
+    max-width: 70px;
+    filter: brightness(80%);
+    transition: all 0.5s;
+}
+
+.skills div img:hover{
+    max-width: 70px;
+    filter: brightness(100%)
+}
+
+/* PROYECTS*/
+
+.proyect{
+    min-height: 500px;
+    margin-bottom: 200px;
+}
+.proyect h1{
+    text-align: right;
+}
+
+.proyect h2{
+    text-align: right;
+}
+
+.webs{
+    display: grid;
+    grid-auto-rows: minmax(200px, auto);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.webs p{
+    padding: 10px;
+    font-size: 50px;
+    text-decoration: none;
+    color: #ff2256;
+    background: #ffffff50;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    transition: all 0.5s;
+}
+
+.webs p:hover{
+    background: #ffffff;
+    box-shadow: 0 0 16px white;
+}
+
+.webs img{
+    width: 300px;
+    filter: brightness(80%);
+    transition: all 0.5s;
+}
+
+.webs img:hover{
+    filter: brightness(100%);
+}
+
+.github {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 130px;
+    font-size: 60px;
+    background: linear-gradient(#ffff, #ffffff);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FF003D;
+    margin: 0 auto;
+    filter: brightness(75%);
+    transition: all 0.5s;
+
+}
+
+.github:hover{
+    width: 100%;
+    box-shadow: 0 0 15px white;
+    filter: brightness(100%);
+}
+
+.github img{
+    width: 200px;
+}
+
+/* CONTACT */
+
+.contact{
+    min-height: 700px;
+}
+
+
+.contact input{
+    width: 700px;
+    height: 60px;
+    color: #ffffff;
+    font-size: 20px;
+    background: none;
+    border: none;
+    border-bottom: solid 0.5px #fff;
+}
+
+::placeholder{
+    color: #ffffff;
+}
+
+.contact textarea{
+    width: 700px;
+    max-height: 200px;
+    color: #ffffff;
+    font-size: 20px;
+    background: none;
+    border: none;
+    border-bottom: solid 0.5px #fff;
+}
+
+.contact button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 60px;
+}
+
+.contact button:hover{
+
+    color:white;
+    background: linear-gradient(180deg,#FF003D, #bd002c);
+    transition: all 0.5s;
+}
+
+.contact button:active{
+
+    color:#FF003D;
+    background: #ffffff;
+}
+
+.contact{
+text-align: center;
+}
+
+/*FOOTER*/
+
+footer{
+    text-align: center;
+}
+
+footer img{
+    max-width: 30px ;
+    margin: 20px 20px;
+    color: #ffffff;
+    opacity: 20%;
+}
+
+footer img:hover{
+    opacity: 100%;
+    transition: all 0.5s;
+}
+

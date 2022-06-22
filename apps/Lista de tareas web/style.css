@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+
+
+h1{
+	font-size: 80px;
+	padding-bottom: 20px;
+}
+
+.cuerpo{
+	background: yellow;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 10px;
+	max-width: 800px;
+	text-align: center;
+	padding: 20px;
+}
+
+.tareaNueva{
+	height: 30px;
+	min-width: 400px;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.contenedor{
+	text-align: left;
+
+}
+.work, .btnDelete, .btnCheck{
+	margin: 10px;
+	font-size: 20px;
+}
+
+.btnCheck, .btnDelete, .btnNuevo{
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	color: #ffffff;
+	background: #ff0033;
+	font-size: 15px;
+}
+
+.work{
+	padding-left: 0px;
+	list-style: none;
+}
+
+.lista{
+	margin-left: 20px;
+
+}
+
+.newSpace{
+	background: white;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.tachar{
+	text-decoration: line-through;
+}
